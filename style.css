@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: radial-gradient(rgb(251, 85, 130) 0%, rgb(22, 16, 39) 54%);
+    
+    background-position:right top;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, Courier, monospace;
+    margin-top:100px;
+  }
+
+  p {
+    max-width: 1000px;
+  }
+
+  p.name {font-size:40px;text-align:justify;}
+  div.contact{font-size:20px;}
+  p.intro{font-size:20px;}
+
+  .allign-right {
+    max-width: fit-content;
+    margin-left: auto;
+    text-align:justify;
+   
+  }
+
+
+  .wrapper {
+    max-width: 600px;
+    padding: 0 3rem;
+    height: fit-content;
+    margin: auto;
+    text-align:justify;
+  }
+
